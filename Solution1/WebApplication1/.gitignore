@@ -1,0 +1,60 @@
+﻿# Arquivos temporários do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Pastas de build
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Tt]emp/
+
+# Arquivos de publicação
+publish/
+*.Publish.xml
+
+# Arquivos de cache
+*.dbmdl
+*.jfm
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.ipch
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Arquivos do Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Arquivos de pacotes NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+*.package
+
+# Diretórios de dependências
+packages/
+*.dll
+*.exe
+
+# Arquivos de logs
+*.log
+
+# Configurações locais
+*.vscode/
