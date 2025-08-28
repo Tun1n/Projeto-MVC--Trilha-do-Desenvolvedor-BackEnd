@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\migrations\\20250828222928_popularbebidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\20250828222928_popularbebidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\migrations\\20250828222901_popularcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\20250828222901_popularcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\migrations\\20250828222641_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\20250828222641_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\migrations\\20250828222901_popularcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\20250828222901_popularcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\migrations\\20250828222928_popularbebidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\20250828222928_popularbebidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\.gitignore",
+              "RelativeDocumentMoniker": "WebApplication1\\.gitignore",
+              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\.gitignore",
+              "RelativeToolTip": "WebApplication1\\.gitignore",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCQAAAAHAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-08-28T22:37:02.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "20250828222928_PopularBebidas.cs",
               "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Migrations\\20250828222928_PopularBebidas.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20250828222928_PopularBebidas.cs",
-              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Migrations\\20250828222928_PopularBebidas.cs*",
-              "RelativeToolTip": "WebApplication1\\Migrations\\20250828222928_PopularBebidas.cs*",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Migrations\\20250828222928_PopularBebidas.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20250828222928_PopularBebidas.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T22:29:29.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "20250828222901_PopularCategorias.cs",
               "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Migrations\\20250828222901_PopularCategorias.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20250828222901_PopularCategorias.cs",
@@ -69,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
               "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\appsettings.json",
               "RelativeToolTip": "WebApplication1\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-08-28T22:18:22.466Z",
               "EditorCaption": ""
