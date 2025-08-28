@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using WebApplication1.Repositories;
+using WebApplication1.Repositories.Interfaces;
 
 namespace WebApplication1
 {
@@ -14,6 +16,9 @@ namespace WebApplication1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<IBebidaRepository, BebidaRepository>();
+            services.AddTransient<ICategoriaRepository, CategoriaRepository>();
+
             services.AddDbContext<Context.AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
