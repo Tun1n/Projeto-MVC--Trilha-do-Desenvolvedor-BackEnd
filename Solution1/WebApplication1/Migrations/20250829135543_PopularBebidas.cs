@@ -35,6 +35,17 @@ namespace WebApplication1.Migrations
 
             migrationBuilder.Sql("INSERT INTO Bebidas (Name, DescricaoCurta, DescricaoDetalhada, Preco, ImagemUrl, ImagemThumbnailUrl, IsBebidaPreferida, EmEstoque, CategoriaId) " +
                 "VALUES('José Cuervo 750ml','Tequila mexicana clássica, com sabor suave, notas de agave e leve toque amadeirado','A Tequila José Cuervo é uma das mais tradicionais tequilas mexicanas, produzida a partir da agave azul (Agave tequilana) cultivada nas terras do estado de Jalisco, México. A produção segue métodos tradicionais, incluindo cozimento da agave, extração do suco, fermentação natural e destilação cuidadosa, garantindo pureza e qualidade',150.00,'/images/Josecuervo.png','/images/Josecuervo.png',1,1,3)");
+
+            // Categoria Licor = 4
+
+            migrationBuilder.Sql("INSERT INTO Bebidas (Name, DescricaoCurta, DescricaoDetalhada, Preco, ImagemUrl, ImagemThumbnailUrl, IsBebidaPreferida, EmEstoque, CategoriaId) " +
+                "VALUES('Licor 43 700ml','Licor 43 é um licor espanhol feito com 43 ingredientes, incluindo frutas, especiarias e ervas, de sabor doce, aromático e levemente cítrico','O Licor 43, também conhecido como Cuarenta y Tres, é um tradicional licor espanhol originário de Cartagena, na região de Múrcia. Seu nome vem da receita composta por 43 ingredientes cuidadosamente selecionados, incluindo frutas cítricas, baunilha, especiarias e ervas aromáticas',149.00,'/images/Licor43.png','/images/Licor43.png',1,1,4)");
+
+            migrationBuilder.Sql("INSERT INTO Bebidas (Name, DescricaoCurta, DescricaoDetalhada, Preco, ImagemUrl, ImagemThumbnailUrl, IsBebidaPreferida, EmEstoque, CategoriaId) " +
+                "VALUES('Amarula Cream 750ml','Amarula é um licor sul-africano cremoso, feito a partir do fruto da árvore maruleira, com sabor adocicado e notas de caramelo e baunilha','A Amarula é um famoso licor sul-africano, produzido a partir do fruto da maruleira, árvore típica da savana africana também conhecida como “árvore do elefante”, já que esses animais são grandes apreciadores de seus frutos. Após a colheita, o fruto é fermentado e destilado, sendo posteriormente envelhecido em barris de carvalho por cerca de dois anos. Em seguida, recebe a adição de creme fresco, que confere sua textura aveludada e característica',99.90,'/images/Amarula.png','/images/Amarula.png',1,1,4)");
+
+            migrationBuilder.Sql("INSERT INTO Bebidas (Name, DescricaoCurta, DescricaoDetalhada, Preco, ImagemUrl, ImagemThumbnailUrl, IsBebidaPreferida, EmEstoque, CategoriaId) " +
+                "VALUES('Sheridans 700ml','Sheridan’s é um licor irlandês de dupla camada, que combina creme de baunilha e café-chocolate em uma apresentação única e sofisticada','Sheridan’s é um licor irlandês distinto e sofisticado, conhecido por sua embalagem única de duas câmaras, que já se tornou um ícone da marca. Em um mesmo frasco, ele combina dois licores diferentes: de um lado, um licor cremoso de baunilha e leite; do outro, um licor à base de café, chocolate e um leve toque de uísque irlandês. Ao servir, as duas partes se misturam automaticamente no copo, criando camadas visuais elegantes e um sabor equilibrado',270.00,'/images/sheridans.png','/images/sheridans.png',1,1,4)");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -43,5 +54,3 @@ namespace WebApplication1.Migrations
         }
     }
 }
-
-

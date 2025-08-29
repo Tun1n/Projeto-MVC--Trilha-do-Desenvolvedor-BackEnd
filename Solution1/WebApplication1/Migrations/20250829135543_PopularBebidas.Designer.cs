@@ -9,7 +9,7 @@ using WebApplication1.Context;
 namespace WebApplication1.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250829004544_PopularBebidas")]
+    [Migration("20250829135543_PopularBebidas")]
     partial class PopularBebidas
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
