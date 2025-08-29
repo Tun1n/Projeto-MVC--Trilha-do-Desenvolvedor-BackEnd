@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\models\\carrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\carrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\controllers\\carrinhocompracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\carrinhocompracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\migrations\\20250829141209_carrinhocompraitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\20250829141209_carrinhocompraitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\models\\carrinhocompraitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\carrinhocompraitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\views\\bebida\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\bebida\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\views\\shared\\_bebidasresumo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_bebidasresumo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\viewmodels\\carrinhocompraviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\viewmodels\\carrinhocompraviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -48,7 +36,7 @@
               "RelativeDocumentMoniker": "WebApplication1\\Startup.cs",
               "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Startup.cs",
               "RelativeToolTip": "WebApplication1\\Startup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T23:24:59.152Z",
               "IsPinned": true,
@@ -56,32 +44,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CarrinhoCompra.cs",
-              "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Models\\CarrinhoCompra.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\CarrinhoCompra.cs",
-              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Models\\CarrinhoCompra.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\CarrinhoCompra.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAQwGwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T14:17:40.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "20250829141209_CarrinhoCompraItem.cs",
-              "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Migrations\\20250829141209_CarrinhoCompraItem.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20250829141209_CarrinhoCompraItem.cs",
-              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Migrations\\20250829141209_CarrinhoCompraItem.cs",
-              "RelativeToolTip": "WebApplication1\\Migrations\\20250829141209_CarrinhoCompraItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T14:12:09.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Context\\AppDbContext.cs",
@@ -89,43 +52,35 @@
               "RelativeToolTip": "WebApplication1\\Context\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T14:11:19.721Z"
+              "WhenOpened": "2025-08-29T14:11:19.721Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CarrinhoCompraItem.cs",
-              "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Models\\CarrinhoCompraItem.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\CarrinhoCompraItem.cs",
-              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Models\\CarrinhoCompraItem.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\CarrinhoCompraItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CarrinhoCompraViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\ViewModels\\CarrinhoCompraViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\ViewModels\\CarrinhoCompraViewModel.cs",
+              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\ViewModels\\CarrinhoCompraViewModel.cs",
+              "RelativeToolTip": "WebApplication1\\ViewModels\\CarrinhoCompraViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T14:10:05.814Z"
+              "WhenOpened": "2025-08-29T14:57:26.624Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_BebidasResumo.cshtml",
-              "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Views\\Shared\\_BebidasResumo.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_BebidasResumo.cshtml",
-              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Views\\Shared\\_BebidasResumo.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_BebidasResumo.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-29T14:02:40.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Views\\Bebida\\List.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Bebida\\List.cshtml",
-              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Views\\Bebida\\List.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Bebida\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-29T00:16:26.928Z"
+              "DocumentIndex": 0,
+              "Title": "CarrinhoCompraController.cs",
+              "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Controllers\\CarrinhoCompraController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CarrinhoCompraController.cs",
+              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Controllers\\CarrinhoCompraController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CarrinhoCompraController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T14:52:44.02Z",
+              "EditorCaption": ""
             }
           ]
         }

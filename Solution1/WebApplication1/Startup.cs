@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using WebApplication1.Models;
 using WebApplication1.Repositories;
 using WebApplication1.Repositories.Interfaces;
 
@@ -21,6 +22,8 @@ namespace WebApplication1
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+            services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
             services.AddDbContext<Context.AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
