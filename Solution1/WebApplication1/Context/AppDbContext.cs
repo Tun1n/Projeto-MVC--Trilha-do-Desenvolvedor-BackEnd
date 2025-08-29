@@ -12,5 +12,7 @@ namespace WebApplication1.Context
 
         public DbSet<Bebida> Bebidas { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
+
+        public DbSet<CarrinhoCompraItem> CarrinhoCompraItens { get; set; }  
     }
 }
