@@ -1,27 +1,30 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Models;
+using WebApplication1.Repositories.Interfaces;
+using WebApplication1.ViewModels;
 
 namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IBebidaRepository _bebidaRepository;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IBebidaRepository bebidaRepository)
         {
-            _logger = logger;
+            _bebidaRepository = bebidaRepository;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var homeviewmodel = new HomeViewModel
+            {
+                BebidasPreferidas = _bebidaRepository.BebidasPreferidas
+            };
+            return View(homeviewmodel);
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+       
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

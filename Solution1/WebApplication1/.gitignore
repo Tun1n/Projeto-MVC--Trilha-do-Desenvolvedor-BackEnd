@@ -4,6 +4,9 @@
 *.suo
 *.userosscache
 *.sln.docstates
+*.cache
+*.db
+*.pdb
 
 # Pastas de build
 bin/
