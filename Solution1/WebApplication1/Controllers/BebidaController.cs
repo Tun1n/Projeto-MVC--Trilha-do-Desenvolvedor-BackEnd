@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Repositories;
 using WebApplication1.Repositories.Interfaces;
+using WebApplication1.ViewModels;
 
 namespace WebApplication1.Controllers
 {
@@ -15,8 +16,12 @@ namespace WebApplication1.Controllers
 
         public IActionResult List()
         {
-            var bebidas = _bebidaRepository.Bebidas;
-            return View(bebidas);
+            var bebidasListViewModel = new BebidaListViewModel();
+            bebidasListViewModel.Bebidas = _bebidaRepository.Bebidas;
+            bebidasListViewModel.CategoriaAtual = "Categoria Atual";
+
+            return View(bebidasListViewModel);
+
         }
     }
 }

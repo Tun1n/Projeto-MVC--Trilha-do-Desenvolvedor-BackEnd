@@ -1,12 +1,12 @@
-﻿@model IEnumerable<WebApplication1.Models.Bebida>
+﻿@model BebidaListViewModel
 
  <div>
-     <h2>Todas as Bebidas</h2>
+     <h2>@Model.CategoriaAtual</h2>
  </div>
 
  <div class="container">
      <div class="row">
-        @foreach (var bebida in Model)
+        @foreach (var bebida in Model.Bebidas)
         {
             <div class="col-sm-4 col-md-4 col-lg-4">
 
