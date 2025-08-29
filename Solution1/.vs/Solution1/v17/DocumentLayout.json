@@ -3,40 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\migrations\\20250829001246_popularbebidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\20250829001246_popularbebidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\migrations\\20250829001229_popularcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\20250829001229_popularcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\migrations\\20250829001200_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\20250829001200_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\controllers\\bebidacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\bebidacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\repositories\\bebidarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\bebidarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\views\\bebida\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\bebida\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\views\\bebida\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\bebida\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\repositories\\interfaces\\ibebidarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\interfaces\\ibebidarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|c:\\users\\slped\\desktop\\pmvc\\solution1\\webapplication1\\migrations\\20250829001246_popularbebidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B767AF44-323A-450C-9D0B-B510CACBF7FC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\20250829001246_popularbebidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,86 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250829001246_PopularBebidas.cs",
-              "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Migrations\\20250829001246_PopularBebidas.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20250829001246_PopularBebidas.cs",
-              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Migrations\\20250829001246_PopularBebidas.cs",
-              "RelativeToolTip": "WebApplication1\\Migrations\\20250829001246_PopularBebidas.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAzwCEAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T00:12:46.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20250829001229_PopularCategorias.cs",
-              "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Migrations\\20250829001229_PopularCategorias.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20250829001229_PopularCategorias.cs",
-              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Migrations\\20250829001229_PopularCategorias.cs",
-              "RelativeToolTip": "WebApplication1\\Migrations\\20250829001229_PopularCategorias.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T00:12:29.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250829001200_InitialMigration.cs",
-              "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Migrations\\20250829001200_InitialMigration.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20250829001200_InitialMigration.cs",
-              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Migrations\\20250829001200_InitialMigration.cs",
-              "RelativeToolTip": "WebApplication1\\Migrations\\20250829001200_InitialMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T00:12:00.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T23:28:09.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BebidaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Repositories\\BebidaRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\BebidaRepository.cs",
-              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Repositories\\BebidaRepository.cs",
-              "RelativeToolTip": "WebApplication1\\Repositories\\BebidaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T23:27:30.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IBebidaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Repositories\\Interfaces\\IBebidaRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\Interfaces\\IBebidaRepository.cs",
-              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Repositories\\Interfaces\\IBebidaRepository.cs",
-              "RelativeToolTip": "WebApplication1\\Repositories\\Interfaces\\IBebidaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T23:27:20.435Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Startup.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Startup.cs",
@@ -133,11 +34,12 @@
               "RelativeToolTip": "WebApplication1\\Startup.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T23:24:59.152Z"
+              "WhenOpened": "2025-08-28T23:24:59.152Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Views\\Bebida\\List.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Bebida\\List.cshtml",
@@ -145,20 +47,20 @@
               "RelativeToolTip": "WebApplication1\\Views\\Bebida\\List.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T23:22:16.173Z"
+              "WhenOpened": "2025-08-29T00:16:26.928Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BebidaController.cs",
-              "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Controllers\\BebidaController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\BebidaController.cs",
-              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Controllers\\BebidaController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\BebidaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "20250829001246_PopularBebidas.cs",
+              "DocumentMoniker": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Migrations\\20250829001246_PopularBebidas.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20250829001246_PopularBebidas.cs",
+              "ToolTip": "C:\\Users\\slped\\Desktop\\PMVC\\Solution1\\WebApplication1\\Migrations\\20250829001246_PopularBebidas.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20250829001246_PopularBebidas.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCEAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T23:03:10.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T00:12:46.405Z"
             }
           ]
         }
