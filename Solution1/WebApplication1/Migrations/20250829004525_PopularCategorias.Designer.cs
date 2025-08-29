@@ -9,7 +9,7 @@ using WebApplication1.Context;
 namespace WebApplication1.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250829001229_PopularCategorias")]
+    [Migration("20250829004525_PopularCategorias")]
     partial class PopularCategorias
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -28,7 +28,7 @@ namespace WebApplication1.Migrations
 
             // Categoria Destilado = 3
             migrationBuilder.Sql("INSERT INTO Bebidas (Name, DescricaoCurta, DescricaoDetalhada, Preco, ImagemUrl, ImagemThumbnailUrl, IsBebidaPreferida, EmEstoque, CategoriaId) " +
-                "VALUES('Askov Tradicional 900ml','Cachaça suave e clássica, com sabor equilibrado e leve toque de madeira.','A Askov Tradicional é uma cachaça brasileira de alta qualidade, produzida a partir da fermentação e destilação do caldo de cana-de-açúcar puro. Ela passa por um processo de envelhecimento em barris de madeira, que confere ao destilado notas sutis de caramelo, baunilha e um leve toque amadeirado, mantendo a suavidade característica de uma cachaça bem equilibrada',36.00,'/images/Askov.png','/images/Askov.png',0,1,3)");
+                "VALUES('Askov Tradicional 900ml','Cachaça suave e clássica, com sabor equilibrado e leve toque de madeira','A Askov Tradicional é uma cachaça brasileira de alta qualidade, produzida a partir da fermentação e destilação do caldo de cana-de-açúcar puro. Ela passa por um processo de envelhecimento em barris de madeira, que confere ao destilado notas sutis de caramelo, baunilha e um leve toque amadeirado, mantendo a suavidade característica de uma cachaça bem equilibrada',36.00,'/images/Askov.png','/images/Askov.png',0,1,3)");
 
             migrationBuilder.Sql("INSERT INTO Bebidas (Name, DescricaoCurta, DescricaoDetalhada, Preco, ImagemUrl, ImagemThumbnailUrl, IsBebidaPreferida, EmEstoque, CategoriaId) " +
                 "VALUES('Seagers Gin 980ml','Seagers Gin: Gin suave e refrescante, com notas cítricas e botânicas clássicas','O Seagers Gin é um gin clássico, produzido a partir de uma base neutra de destilado e cuidadosamente aromatizado com botânicos selecionados, incluindo zimbro, coentro, casca de cítricos e outras especiarias que conferem complexidade e frescor à bebida',53.00,'/images/Seagers.png','/images/Seagers.png',1,1,3)");
@@ -43,3 +43,5 @@ namespace WebApplication1.Migrations
         }
     }
 }
+
+

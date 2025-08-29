@@ -4,12 +4,19 @@
      <h2>Todas as Bebidas</h2>
  </div>
 
- @foreach(var bebida in Model)
- {
-     <div>
-         <h3>@bebida.Name</h3>
-         <p><img src="@bebida.ImagemUrl" /></p>
-         <p>Preço: @bebida.Preco.ToString("C")</p>
+ <div class="container">
+     <div class="row">
+        @foreach (var bebida in Model)
+        {
+            <div class="col-sm-4 col-md-4 col-lg-4">
+
+                <p><img src="@bebida.ImagemUrl" class="img-fluid" /></p>
+                <p>Preço: @bebida.Preco.ToString("C")</p>
+                <h3>@bebida.Name</h3>
+                <p>@bebida.DescricaoCurta</p>  
+                
+            </div>
+        }
      </div>
-}
-)
+ </div>
+ 
