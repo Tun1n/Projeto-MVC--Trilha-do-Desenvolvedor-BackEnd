@@ -6,6 +6,7 @@ namespace WebApplication1.Components
 {
     public class CarrinhoCompraResumo : ViewComponent
     {
+
         private readonly CarrinhoCompra _carrinhoCompra;
 
         public CarrinhoCompraResumo(CarrinhoCompra carrinhoCompra)
