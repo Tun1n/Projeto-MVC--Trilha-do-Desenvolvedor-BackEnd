@@ -1,0 +1,15 @@
+﻿@model IEnumerable<WebApplication1.Models.Bebida>
+
+ <div>
+     <h2>Todas as Bebidas</h2>
+ </div>
+
+ @foreach(var bebida in Model)
+ {
+     <div>
+         <h3>@bebida.Name</h3>
+         <p><img src="@bebida.ImagemUrl" /></p>
+         <p>Preço: @bebida.Preco.ToString("C")</p>
+     </div>
+}
+)

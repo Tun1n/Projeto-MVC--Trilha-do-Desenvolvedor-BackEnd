@@ -30,8 +30,8 @@ namespace WebApplication1.Migrations
                     DescricaoCurta = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: false),
                     DescricaoDetalhada = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: false),
                     Preco = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
-                    ImagemUrl = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: false),
-                    ImagemThumbnailUrl = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: false),
+                    ImagemUrl = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: true),
+                    ImagemThumbnailUrl = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: true),
                     IsBebidaPreferida = table.Column<bool>(type: "bit", nullable: false),
                     EmEstoque = table.Column<bool>(type: "bit", nullable: false),
                     CategoriaId = table.Column<int>(type: "int", nullable: false)

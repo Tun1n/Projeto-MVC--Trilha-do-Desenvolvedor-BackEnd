@@ -17,6 +17,7 @@ namespace WebApplication1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IBebidaRepository, BebidaRepository>();
+            
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 
             services.AddDbContext<Context.AppDbContext>(options =>

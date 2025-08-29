@@ -24,4 +24,3 @@ namespace WebApplication1.Migrations
         }
     }
 }
-
