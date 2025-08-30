@@ -18,7 +18,7 @@ namespace WebApplication1.Controllers
 
         public IActionResult Index()
         {
-            var itens = _carrinhoCompra.CarrinhoCompraItems;
+            var itens = _carrinhoCompra.GetCarrinhoCompraItens();
             _carrinhoCompra.CarrinhoCompraItems = itens;
 
             var carrinhoCompraVM = new CarrinhoCompraViewModel
@@ -29,7 +29,7 @@ namespace WebApplication1.Controllers
             return View(carrinhoCompraVM);
         }
 
-        public RedirectToActionResult AdicionarItemNoCarrinhoCompra(int bebidaId)
+        public IActionResult AdicionarItemNoCarrinhoCompra(int bebidaId)
         {
             var bebidaSelecionada = _bebidaRepository.Bebidas.FirstOrDefault(j => j.BebidaId == bebidaId);
             if (bebidaSelecionada != null)
@@ -39,7 +39,7 @@ namespace WebApplication1.Controllers
             return RedirectToAction("Index");
         }
 
-        public RedirectToActionResult RemoverItemNoCarrinhoCompra(int bebidaId)
+        public IActionResult RemoverItemDoCarrinhoCompra(int bebidaId)
         {
             var bebidaSelecionada = _bebidaRepository.Bebidas.FirstOrDefault(m => m.BebidaId == bebidaId);
             if(bebidaSelecionada != null)
