@@ -16,13 +16,11 @@ namespace WebApplication1.Components
 
         public IViewComponentResult Invoke()
         {
-            var itens = new List<CarrinhoCompraItem>()
-            {
-                new CarrinhoCompraItem(),
-                new CarrinhoCompraItem(),
-            };
+            var itens = _carrinhoCompra.GetCarrinhoCompraItens();
+           
 
             _carrinhoCompra.CarrinhoCompraItems = itens;
+
 
             var carrinhoCompraVM = new CarrinhoCompraViewModel
             {

@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
+#nullable disable
+
 namespace WebApplication1.Migrations
 {
     public partial class CarrinhoCompraItem : Migration
@@ -23,8 +25,7 @@ namespace WebApplication1.Migrations
                         name: "FK_CarrinhoCompraItens_Bebidas_BebidaId",
                         column: x => x.BebidaId,
                         principalTable: "Bebidas",
-                        principalColumn: "BebidaId",
-                        onDelete: ReferentialAction.Restrict);
+                        principalColumn: "BebidaId");
                 });
 
             migrationBuilder.CreateIndex(
