@@ -45,5 +45,12 @@ namespace WebApplication1.Controllers
             return View(bebidasListViewModel);
 
         }
+
+        public IActionResult Details(int bebidaId)
+        {
+            var bebida = _bebidaRepository.Bebidas.FirstOrDefault(l => l.BebidaId == bebidaId) ;
+            
+            return View(bebida);
+        }
     }
 }
