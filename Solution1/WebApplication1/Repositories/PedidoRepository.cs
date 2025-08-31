@@ -15,7 +15,7 @@ namespace WebApplication1.Repositories
             _carrinhoCompra = carrinhoCompra;
         }
 
-        public void CriarPedid(Pedido pedido)
+        public void CriarPedido(Pedido pedido)
         {
             pedido.PedidoEnviado = DateTime.Now;
             _appDbcontext.Pedidos.Add(pedido);

@@ -52,5 +52,36 @@ namespace WebApplication1.Controllers
             
             return View(bebida);
         }
+
+        public ViewResult Search(string searchString)
+        {
+            IEnumerable<Bebida> bebidas;
+            string categoriaAtual = string.Empty;
+
+            if (string.IsNullOrEmpty(searchString))
+            {
+                bebidas = _bebidaRepository.Bebidas
+                    .OrderBy(p => p.BebidaId);
+
+                categoriaAtual = "Todas as bebidas";
+            }
+            else
+            { 
+                bebidas = _bebidaRepository.Bebidas
+                        .Where(p => p.Name.ToLower().Contains(searchString.ToLower()));
+
+            // .any determina se existe algum elemento na coleção
+            if (bebidas.Any()) 
+                    categoriaAtual = "Bebidas";
+                else
+                    categoriaAtual = "Nenhuma bebida foi encontrada";
+            }
+
+            return View("~/Views/Bebida/List.cshtml", new BebidaListViewModel
+            {
+                Bebidas = bebidas,
+                CategoriaAtual = categoriaAtual
+            });
+        }
     }
 }
