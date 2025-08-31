@@ -27,6 +27,10 @@ namespace WebApplication1.Models
         [Required(ErrorMessage = "Informe o CEP")]
         [Display(Name = "CEP")]
         [StringLength(10, MinimumLength = 8)]
+
+        public string Cep { get; set; }
+
+        [StringLength(10)]
         public string Estado { get; set; }
 
         [StringLength(50)]

@@ -4,6 +4,6 @@ namespace WebApplication1.Repositories.Interfaces
 {
     public interface IPedidoRepository
     {
-        void CriarPedido(Pedido pedido);
+        public void CriarPedido(Pedido pedido);
     }
 }

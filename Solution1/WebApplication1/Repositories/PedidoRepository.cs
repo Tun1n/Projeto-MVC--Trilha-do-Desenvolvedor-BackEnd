@@ -6,35 +6,36 @@ namespace WebApplication1.Repositories
 {
     public class PedidoRepository : IPedidoRepository
     {
-        private readonly AppDbContext _appDbcontext;
+        private readonly AppDbContext _appDbContext;
         private readonly CarrinhoCompra _carrinhoCompra;
 
-        public PedidoRepository(AppDbContext appDbcontext, CarrinhoCompra carrinhoCompra)
+        public PedidoRepository(AppDbContext appDbContext,
+            CarrinhoCompra carrinhoCompra)
         {
-            _appDbcontext = appDbcontext;
+            _appDbContext = appDbContext;
             _carrinhoCompra = carrinhoCompra;
         }
 
         public void CriarPedido(Pedido pedido)
         {
             pedido.PedidoEnviado = DateTime.Now;
-            _appDbcontext.Pedidos.Add(pedido);
-            _appDbcontext.SaveChanges();    
+            _appDbContext.Pedidos.Add(pedido);
+            _appDbContext.SaveChanges();
 
             var carrinhoCompraItens = _carrinhoCompra.CarrinhoCompraItems;
 
-            foreach(var carrinhoItem in carrinhoCompraItens)
+            foreach (var carrinhoItem in carrinhoCompraItens)
             {
-                var pedidoDetalhe = new PedidoDetalhe()
+                var pedidoDetail = new PedidoDetalhe()
                 {
+                    Quantidade = carrinhoItem.Quantidade,
                     BebidaId = carrinhoItem.Bebida.BebidaId,
                     PedidoId = pedido.PedidoId,
-                    Preco = carrinhoItem.Bebida.Preco,
-                    Quantidade = carrinhoItem.Quantidade
+                    Preco = carrinhoItem.Bebida.Preco
                 };
-                _appDbcontext.PedidoDetalhes.Add(pedidoDetalhe);
+                _appDbContext.PedidoDetalhes.Add(pedidoDetail);
             }
-            _appDbcontext.SaveChanges();
+            _appDbContext.SaveChanges();
         }
     }
 
