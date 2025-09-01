@@ -1,7 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-#nullable disable
-
 namespace WebApplication1.Migrations
 {
     public partial class CarrinhoCompraItem : Migration
@@ -37,7 +35,7 @@ namespace WebApplication1.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "CarrinhoCompraItens");
+                            name: "CarrinhoCompraItens");
         }
     }
 }

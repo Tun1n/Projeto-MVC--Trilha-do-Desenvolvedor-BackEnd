@@ -7,11 +7,10 @@ namespace WebApplication1.Models
     public class CarrinhoCompraItem
     {
         public int CarrinhoCompraItemId { get; set; }
-        public Bebida Bebida { get; set; }
-
         public int Quantidade { get; set; }
 
         [StringLength(200)]
         public string CarrinhoCompraId { get; set; }
+        public Bebida Bebida { get; set; }
     }
 }

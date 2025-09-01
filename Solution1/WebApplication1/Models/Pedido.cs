@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebApplication1.Models
 {
+    
     public class Pedido
     {
         public int PedidoId { get; set; }
