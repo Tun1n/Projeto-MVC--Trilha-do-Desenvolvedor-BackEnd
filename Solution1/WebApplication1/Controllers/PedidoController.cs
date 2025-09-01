@@ -42,6 +42,9 @@ namespace WebApplication1.Controllers
                 precoTotalPedido += (item.Bebida.Preco * item.Quantidade);
             }
 
+            pedido.TotalItensPedido = totalItensPedido;
+            pedido.PedidoTotal = precoTotalPedido;
+
             // Valida os dados do pedido
 
             if (ModelState.IsValid)
