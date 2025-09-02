@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using WebApplication1.Context;
 using WebApplication1.Models;
 using WebApplication1.Repositories;
 using WebApplication1.Repositories.Interfaces;
@@ -27,8 +29,12 @@ namespace WebApplication1
 
             services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
-            services.AddDbContext<Context.AppDbContext>(options =>
+            services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();
 
             services.AddControllersWithViews();
 
@@ -56,6 +62,7 @@ namespace WebApplication1
 
             app.UseSession();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
