@@ -68,6 +68,10 @@ namespace WebApplication1
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
+                    name: "areas",
+                    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapControllerRoute(
                     name: "categoriaFiltro",
                     pattern: "Bebida/{action}/{categoria?}",
                     defaults: new { Controller = "Bebida", action = "List" });
