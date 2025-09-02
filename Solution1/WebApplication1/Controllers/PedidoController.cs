@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Models;
 using WebApplication1.Repositories.Interfaces;
 
@@ -15,13 +16,16 @@ namespace WebApplication1.Controllers
             _carrinhoCompra = carrinhoCompra;
         }
 
-        [HttpGet]
 
+        [Authorize]
+        [HttpGet]
+        
         public IActionResult Checkout()
         {
             return View();
         }
 
+        [Authorize]
         [HttpPost]
         public IActionResult Checkout(Pedido pedido)
         {

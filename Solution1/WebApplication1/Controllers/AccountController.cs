@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.ViewModels;
 
 namespace WebApplication1.Controllers
 {
+    [Authorize]
     public class AccountController : Controller
     {
         private readonly UserManager<IdentityUser> _userManager;
@@ -16,6 +18,7 @@ namespace WebApplication1.Controllers
             _signInManager = signInManager;
         }
 
+        [AllowAnonymous]
         public IActionResult Login(string returnUrl)
         {
             return View(new LoginViewModel()
@@ -24,6 +27,7 @@ namespace WebApplication1.Controllers
             });
         }
 
+        [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel loginVM)
         {
@@ -48,11 +52,13 @@ namespace WebApplication1.Controllers
             return View(loginVM);
         }
 
+        [AllowAnonymous]
         public IActionResult Register()
         {
             return View();
         }
 
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(LoginViewModel registroVM)
@@ -75,8 +81,8 @@ namespace WebApplication1.Controllers
             return View(registroVM);
         }
 
+        [AllowAnonymous]
         [HttpPost]
-
         public async Task<IActionResult> Logout()
         {
             HttpContext.Session.Clear();

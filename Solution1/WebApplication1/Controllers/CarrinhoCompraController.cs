@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Models;
 using WebApplication1.Repositories.Interfaces;
 using WebApplication1.ViewModels;
@@ -29,6 +30,7 @@ namespace WebApplication1.Controllers
             return View(carrinhoCompraVM);
         }
 
+        [Authorize]
         public IActionResult AdicionarItemNoCarrinhoCompra(int bebidaId)
         {
             var bebidaSelecionada = _bebidaRepository.Bebidas.FirstOrDefault(j => j.BebidaId == bebidaId);
@@ -39,6 +41,7 @@ namespace WebApplication1.Controllers
             return RedirectToAction("Index");
         }
 
+        [Authorize]
         public IActionResult RemoverItemDoCarrinhoCompra(int bebidaId)
         {
             var bebidaSelecionada = _bebidaRepository.Bebidas.FirstOrDefault(m => m.BebidaId == bebidaId);
