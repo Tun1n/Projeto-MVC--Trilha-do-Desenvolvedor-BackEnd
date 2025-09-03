@@ -38,7 +38,9 @@ namespace WebApplication1.Controllers
 
             if (user != null)
             {
-                var result = await _signInManager.PasswordSignInAsync(user, loginVM.Password, false, false);
+                var result = await _signInManager.PasswordSignInAsync(user,
+                    loginVM.Password, false, false);
+
                 if (result.Succeeded)
                 {
                     if (string.IsNullOrEmpty(loginVM.ReturnUrl))
@@ -70,13 +72,13 @@ namespace WebApplication1.Controllers
 
                 if (result.Succeeded)
                 {
+                    
                     await _userManager.AddToRoleAsync(user, "Member");
-                    await _signInManager.SignInAsync(user, isPersistent: false);
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Login", "Account");
                 }
                 else
-                { 
-                    this.ModelState.AddModelError("", "Falha ao registrar o usuário!!");
+                {
+                    this.ModelState.AddModelError("Registro", "Falha ao registrar o usuário");
                 }
             }
             return View(registroVM);
@@ -90,6 +92,11 @@ namespace WebApplication1.Controllers
             HttpContext.User = null;
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
+        }
+
+        public IActionResult AccessDenied()
+        {
+            return View();
         }
     }
 }

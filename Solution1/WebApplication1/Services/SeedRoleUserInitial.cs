@@ -1,13 +1,15 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using WebApplication1.Services;
 
 namespace WebApplication1.Services
 {
-    public class SeedRoleUserInitial : ISeedUserRoleInitial
+    public class SeedUserRoleInitial : ISeedUserRoleInitial
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
 
-        public SeedRoleUserInitial(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager)
+        public SeedUserRoleInitial(UserManager<IdentityUser> userManager,
+            RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _roleManager = roleManager;
@@ -15,7 +17,6 @@ namespace WebApplication1.Services
 
         public void SeedRoles()
         {
-            // Criação das Roles (Perfis) "Member" e "Admin" se não existirem
             if (!_roleManager.RoleExistsAsync("Member").Result)
             {
                 IdentityRole role = new IdentityRole();
@@ -23,7 +24,6 @@ namespace WebApplication1.Services
                 role.NormalizedName = "MEMBER";
                 IdentityResult roleResult = _roleManager.CreateAsync(role).Result;
             }
-
             if (!_roleManager.RoleExistsAsync("Admin").Result)
             {
                 IdentityRole role = new IdentityRole();
@@ -35,9 +35,7 @@ namespace WebApplication1.Services
 
         public void SeedUsers()
         {
-            // Criação do usuário Admin e member se não existir
-
-            if(_userManager.FindByEmailAsync("usuario@localhost").Result == null)
+            if (_userManager.FindByEmailAsync("usuario@localhost").Result == null)
             {
                 IdentityUser user = new IdentityUser();
                 user.UserName = "usuario@localhost";
@@ -74,8 +72,6 @@ namespace WebApplication1.Services
                     _userManager.AddToRoleAsync(user, "Admin").Wait();
                 }
             }
-
-
         }
     }
 }
