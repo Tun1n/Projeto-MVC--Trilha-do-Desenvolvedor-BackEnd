@@ -32,6 +32,14 @@ namespace WebApplication1
 
             services.AddScoped<ISeedUserRoleInitial, SeedRoleUserInitial>();
 
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("Admin",
+                    politica => { politica.RequireRole("Admin"); 
+                    
+                    });
+            });
+
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
