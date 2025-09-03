@@ -4,6 +4,7 @@ using WebApplication1.Context;
 using WebApplication1.Models;
 using WebApplication1.Repositories;
 using WebApplication1.Repositories.Interfaces;
+using WebApplication1.Services;
 
 namespace WebApplication1
 {
@@ -29,6 +30,8 @@ namespace WebApplication1
 
             services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
+            services.AddScoped<ISeedUserRoleInitial, SeedRoleUserInitial>();
+
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
@@ -43,7 +46,8 @@ namespace WebApplication1
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, 
+            ISeedUserRoleInitial seedUserRoleInitial)
         {
             if (env.IsDevelopment())
             {
@@ -60,6 +64,12 @@ namespace WebApplication1
 
             app.UseRouting();
 
+            // Cria os Perfis
+            seedUserRoleInitial.SeedUsers();
+
+            // Cria os Usuários e atribui os Perfis
+            seedUserRoleInitial.SeedRoles();
+
             app.UseSession();
 
             app.UseAuthentication();
@@ -69,7 +79,7 @@ namespace WebApplication1
             {
                 endpoints.MapControllerRoute(
                     name: "areas",
-                    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}");
 
                 endpoints.MapControllerRoute(
                     name: "categoriaFiltro",
