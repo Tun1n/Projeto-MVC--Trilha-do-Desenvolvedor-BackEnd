@@ -16,3 +16,17 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.carousel-indicators [data-bs-target] {
+    background-color: black;
+}
+
+.carousel-indicators .active {
+    background-color: black;
+}
+
+.carousel-control-prev-icon,
+
+.carousel-control-next-icon {
+    filter: invert(1); 
+}
